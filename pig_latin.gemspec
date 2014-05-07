@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pig_latin/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "anslator_tray"
+  spec.name          = "pig_latin"
   spec.version       = PigLatin::VERSION
   spec.authors       = "Michael Ornellas"
   spec.email         = "mike@makersquare.com"
