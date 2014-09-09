@@ -18,11 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'pig_latin'
+
+PigLatin.to_pig_latin("hello")
+#=> 'ellohay'
+```
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/pig_latin/fork )
+1. Fork it ( http://github.com/truffaut/pig_latin/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
